@@ -39,7 +39,6 @@
 		117405EF1B9954BF004425E1 /* libRNHTMLtoPDF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNHTMLtoPDF.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		117405F21B9954BF004425E1 /* RNHTMLtoPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNHTMLtoPDF.h; sourceTree = "<group>"; };
 		117405F41B9954BF004425E1 /* RNHTMLtoPDF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNHTMLtoPDF.m; sourceTree = "<group>"; };
-		117405FA1B9954BF004425E1 /* RNHTMLtoPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNHTMLtoPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				117405EF1B9954BF004425E1 /* libRNHTMLtoPDF.a */,
-				117405FA1B9954BF004425E1 /* RNHTMLtoPDFTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,24 +105,6 @@
 			productReference = 117405EF1B9954BF004425E1 /* libRNHTMLtoPDF.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		117405F91B9954BF004425E1 /* RNHTMLtoPDFTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 117406061B9954BF004425E1 /* Build configuration list for PBXNativeTarget "RNHTMLtoPDFTests" */;
-			buildPhases = (
-				117405F61B9954BF004425E1 /* Sources */,
-				117405F71B9954BF004425E1 /* Frameworks */,
-				117405F81B9954BF004425E1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				117405FD1B9954BF004425E1 /* PBXTargetDependency */,
-			);
-			name = RNHTMLtoPDFTests;
-			productName = RNHTMLtoPDFTests;
-			productReference = 117405FA1B9954BF004425E1 /* RNHTMLtoPDFTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -135,9 +115,6 @@
 				ORGANIZATIONNAME = "Blick Labs";
 				TargetAttributes = {
 					117405EE1B9954BF004425E1 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					117405F91B9954BF004425E1 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -155,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				117405EE1B9954BF004425E1 /* RNHTMLtoPDF */,
-				117405F91B9954BF004425E1 /* RNHTMLtoPDFTests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,38 +281,6 @@
 			};
 			name = Release;
 		};
-		117406071B9954BF004425E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RNHTMLtoPDFTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		117406081B9954BF004425E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = RNHTMLtoPDFTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,15 +298,6 @@
 			buildConfigurations = (
 				117406041B9954BF004425E1 /* Debug */,
 				117406051B9954BF004425E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		117406061B9954BF004425E1 /* Build configuration list for PBXNativeTarget "RNHTMLtoPDFTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				117406071B9954BF004425E1 /* Debug */,
-				117406081B9954BF004425E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
