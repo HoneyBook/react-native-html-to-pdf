@@ -40,7 +40,6 @@
 		117405F21B9954BF004425E1 /* RNHTMLtoPDF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNHTMLtoPDF.h; sourceTree = "<group>"; };
 		117405F41B9954BF004425E1 /* RNHTMLtoPDF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNHTMLtoPDF.m; sourceTree = "<group>"; };
 		117405FA1B9954BF004425E1 /* RNHTMLtoPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNHTMLtoPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		117406001B9954BF004425E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				117405F11B9954BF004425E1 /* RNHTMLtoPDF */,
-				117405FE1B9954BF004425E1 /* RNHTMLtoPDFTests */,
 				117405F01B9954BF004425E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,22 +85,6 @@
 				117405F41B9954BF004425E1 /* RNHTMLtoPDF.m */,
 			);
 			path = RNHTMLtoPDF;
-			sourceTree = "<group>";
-		};
-		117405FE1B9954BF004425E1 /* RNHTMLtoPDFTests */ = {
-			isa = PBXGroup;
-			children = (
-				117405FF1B9954BF004425E1 /* Supporting Files */,
-			);
-			path = RNHTMLtoPDFTests;
-			sourceTree = "<group>";
-		};
-		117405FF1B9954BF004425E1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				117406001B9954BF004425E1 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +356,7 @@
 				117406051B9954BF004425E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		117406061B9954BF004425E1 /* Build configuration list for PBXNativeTarget "RNHTMLtoPDFTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +365,7 @@
 				117406081B9954BF004425E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
